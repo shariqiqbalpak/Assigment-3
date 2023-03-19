@@ -5,9 +5,9 @@ class BankAccount{
   BankAccount(this.balance, this.accNumber);
   
   void deposit(){
-    double deposit = 10000;
+    double deposit = 45000;
       deposit += balance;
-    print("Total Balance is: $balance");
+    print("Balance is: $balance");
   }
   
   void withdraw(){
