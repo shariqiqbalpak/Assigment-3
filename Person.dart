@@ -13,12 +13,12 @@ String major;
   
 @override
   void fullName(){
-  print("The major of the $firstName $lastName is $major");
+  print("Full name is $firstName $lastName and the Major is $major");
   }
 }
 
 void main(){
-Student student = Student("Haris", "Iqbal Siddiqui", "Law");
+Student student = Student("Shariq", "Iqbal", "Software Engineer");
 
   student.fullName();
 }
