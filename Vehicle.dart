@@ -13,13 +13,13 @@ class Vehicle{
     Car(String brand, String model, int year, this.numDoors): super(brand,model,year);
     @override
     void drive(){
-      print("$brand $model $year is being driven that icludes $numDoors Doors");
+      print("The $numDoors Doors of $brand $model $year is being driven by Shariq Iqbal");
     }
   }
 
   void main(){
     
-    Car car= Car("City", "iv tech", 2022, 4);
+    Car car= Car("Land Cruiser", "V8", 2022, 4);
     car.drive();
     
   }
